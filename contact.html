@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact |FARMY</title>
+    <link rel="stylesheet" href="all-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: linear-gradient(to top right, rgba(11, 206, 131, 0.5), rgba(230, 173, 18, 0.4));
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            text-align: center;
+            opacity: 0.7;
+        }
+
+        #icons {
+            font-size: xx-large;
+            margin-right: 30px;
+
+        }
+
+        #icons>a {
+            text-decoration: none;
+            color: darkblue;
+            padding-left: 10px;
+            padding-right: 10px;
+            opacity: 0.8;
+            padding-top: 5px;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        #icons>a:hover {
+            background-image: linear-gradient(cyan 60%, darkcyan);
+            color: darkred;
+
+        }
+
+        #contact-us>a {
+            padding: 5px 3px;
+            text-decoration: none;
+            color: darkblue;
+
+        }
+
+        #contact-us>a:hover {
+            text-decoration: underline;
+            color: darkcyan;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .item>input {
+            margin-top: 20px;
+            font-size: 20px;
+            margin: 0px 10px;
+            background-image: linear-gradient(360deg, rgba(45, 180, 128, 0.8), rgba(189, 152, 52, 0.8));
+            border: thin solid black;
+            margin-bottom: 10px;
+
+        }
+
+        #send-responce {
+            font-size: large;
+            background-image: linear-gradient(rgba(45, 180, 128, 0.9), rgba(189, 152, 52, 0.7));
+            border: thin solid black;
+            border-radius: 5px;
+            margin-top: 20px;
+            padding: 5px 20px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        #send-responce:hover,
+        .item>input:hover,
+        #text-area:hover {
+            background-image: linear-gradient(90deg, rgba(45, 180, 128, 0.9), rgba(189, 152, 52, 0.7));
+            color: green;
+        }
+
+        #text-area {
+
+            background-image: linear-gradient(rgba(45, 180, 128, 0.9), rgba(189, 152, 52, 0.7));
+            border: thin solid black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="about.html">About</a>
+        <a href="login.html">LOGIN</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <h1 style="opacity: 0.7;text-align: center;">GET IN TOUCH</h1>
+
+    <div class="container">
+        <!-- socails -->
+        <div class="item">
+            <span id="icons">
+                <h2 style="font-size: x-large;">SOCAIL</h2>
+                <!-- instgram link here -->
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+                <!-- twitter link here -->
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+                <!-- facebook link here -->
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+                <!-- whatsapp link here -->
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp"></i></a>
+            </span>
+        </div>
+        <!-- contact-details  -->
+        <div class="item">
+            <span id="contact-us">
+                <h2 style="font-size: x-large;">CONTACT DETAILS</h2>
+                <a href="mailto:contact@farmy.in">contact@farmy.in</a>
+                <br>
+                <a href="tel:+918888888888">+918888888888</a> |
+                <a href="tel:+918888888888">+918888888888</a>
+            </span>
+        </div>
+    </div>
+    <!-- write you'r responce -->
+    <h1 style=" text-align: center;opacity: 0.7; margin-top: 40px;">WRITE YOU'R RESPONCE</h1>
+
+    <div class="container">
+        <div class="item">
+            <input type="text" name="" id="" placeholder="Name">
+
+        </div>
+        <div class="item">
+            <input type="email" name="" id="" placeholder="Email">
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="item"><br>
+            <label for="text-area" style="font-weight: bold;opacity: 0.8;">MESSAGE:</label>
+            <br>
+            <textarea name="" id="text-area" cols="50" rows="8">  </textarea>
+            <br>
+            <button type="submit" id="send-responce">SEND RESPONCE</button>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="script.js"></script>
+    <footer>
+        Copyright © 2020-2021 Farmy.com
+    </footer>
+</body>
+
+</html>

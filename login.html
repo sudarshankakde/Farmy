@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE | FARMY</title>
+    <link rel="stylesheet" href="all-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: linear-gradient(to top right, rgba(11, 206, 131, 0.5), rgba(230, 173, 18, 0.4));
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .item {
+            border: thin solid transparent;
+            text-align: center;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+
+        #password,
+        #username {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: large;
+            color: black;
+            background-image: linear-gradient(rgba(45, 180, 128, 0.5), rgba(189, 152, 52, 0.4));
+            font-weight: bolder;
+        }
+
+        #password:hover,
+        #username:hover {
+            color: green;
+            font-weight: bolder;
+            background-image: linear-gradient(45deg, rgba(143, 168, 31, 0.5), rgba(189, 152, 52, 0.4));
+        }
+
+        #btn {
+            font-size: 15px;
+            background-image: linear-gradient(rgba(45, 180, 128, 0.5), rgba(189, 152, 52, 0.4));
+            border-radius: 2px;
+            border: thin solid transparent;
+            text-align: center;
+            margin-top: 10px;
+            padding: 5px 40px;
+            font-weight: bolder;
+            margin-bottom: 10px;
+        }
+
+        #btn:hover {
+            color: green;
+            font-weight: bolder;
+            background-image: linear-gradient(45deg, rgba(45, 180, 128, 0.4), rgba(189, 152, 52, 0.5));
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.hmtl">About</a>
+        <a href="login.html" class="active">LOGIN</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <!-- main -->
+    <div class="container">
+        <div class="item">
+            <form action="">
+                <h1 style="opacity: 0.5;">LOGIN | SINGUP</h1>
+                <input type="email" name="" id="username" placeholder="EMAIL" required><br>
+                <input type="password" name="" id="password" placeholder="PASSWORD" minlength="4" required><br>
+                <input type="submit" value="LOGIN" id="btn">
+            </form>
+
+        </div>
+        <br>
+    </div>
+</body>
+<footer>
+    Copyright © 2020-2021 Farmy.com
+</footer>
+<script src="script.js"></script>
+
+</html>
