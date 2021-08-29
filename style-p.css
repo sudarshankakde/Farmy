@@ -1,0 +1,35 @@
+body{
+  background-image: linear-gradient(45deg,rgb(87, 151, 90,0.9),rgb(214, 68, 68,0.4));
+}
+/*  */
+img{
+    height: 250px;
+    width: 250px;
+}
+.container{
+    display: flex;
+    overflow-x:scroll;
+    padding-bottom:10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+.item{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: green;
+    padding: 10px;
+    border:thin solid transparent;
+    background-color: rgb(212, 214, 219);
+}
+.item:hover{
+    background-image:linear-gradient(to top right, rgba(8, 8, 102, 0.6),rgba(31, 231, 121, 0.4));
+    border-style: solid;
+    border-width: thin;
+    border-color:palegoldenrod;
+    color: greenyellow;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
