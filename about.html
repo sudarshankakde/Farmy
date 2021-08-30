@@ -8,7 +8,72 @@
     <title>ABOUT |FARMY</title>
     <link rel="stylesheet" href="all-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-image: linear-gradient(45deg,rgba(175, 216, 200, 0.9), rgba(189, 152, 52, 0.7));
 
+        }
+        .icons {
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            font-size: 40px;
+            background-image: linear-gradient(rgba(30, 182, 144, 0.8), rgba(16, 172, 29, 0.9));
+            padding: 10px 12px;
+            border: thin solid transparent;
+            border-radius: 50%;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 30px;
+        }
+
+        .item {
+            text-align: center;
+        }
+
+        .item>h2 {
+            text-transform: uppercase;
+            font-weight: bold;
+            opacity: 0.8;
+        }
+
+        .item>p {
+            font-size: small;
+            padding: 0px 15px;
+        }
+        .about-us>h2{
+            opacity: 0.7;
+            margin-bottom: 2px;
+        }
+        .about-us>p{
+            padding: 5px 15px;
+        }
+        .about-us>small{
+            opacity: 0.6;
+        }
+        .progress{
+            padding-right: 30px;
+            font-size: large;
+            
+        }
+        .img{
+            padding: 0px 20px;
+
+        }
+        
+        @media (max-width:600px) {
+            .container {
+                flex-flow: wrap;
+            }
+            .img{
+                visibility: hidden;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -23,8 +88,84 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
-    <h1>our services</h1>
+    <div class="container">
+        <div class="item about-us">
+            <h2>○ TEAM FARMY ○</h2>
+            <small>Lorem, ipsum dolor.</small>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet pariatur consectetur iste omnis vel modi,
+                recusandae explicabo nesciunt, commodi, praesentium minus cumque qui perferendis voluptatum velit
+                aliquam a maiores fugiat?</p>
+        </div>
+        <div class="item img">
+            <img src="https://ekatta.in/assets/img/what-we-are.png" alt="TEAM" height="200px" width="400px">
+        </div>
+        <div class="item progress">
+            <label for="">Lorem, ipsum:</label>
+            <br>
+            <progress id="" value="60" max="100"></progress>
+            <br>
+            <label for="file">Lorem, ipsum:</label>
+            <br>
+            <progress id="" value="75" max="100"></progress>
+            <br>
+            <label for="">Lorem, ipsum:</label>
+            <br>
+            <progress id="" value="90" max="100"></progress>
+            <br>
+            <label for="">Lorem, ipsum:</label>
+            <br>
+            <progress id="" value="40" max="100"></progress>
+        </div>
+    </div>
+    <h1 style="opacity: 0.7;text-transform: uppercase;text-align: center;margin-top: 50px;">our services</h1>
+    <div class="container">
+        <div class="item">
+            <i class="fa fa-rocket icons" aria-hidden="true"></i>
 
+            <h2>best services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ratione adipisci quasi eligendi beatae
+                molestiae nisi, in modi ducimus ex, quod repellendus, blanditiis dolorum recusandae incidunt. Totam,
+                consequatur ullam! Eaque?</p>
+        </div>
+        <div class="item">
+            <i class="fa fa-pagelines icons" aria-hidden="true"></i>
+            <h2>best services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ratione adipisci quasi eligendi beatae
+                molestiae nisi, in modi ducimus ex, quod repellendus, blanditiis dolorum recusandae incidunt. Totam,
+                consequatur ullam! Eaque?</p>
+        </div>
+        <div class="item">
+            <i class="fa fa-cogs icons" aria-hidden="true"></i>
+            <h2>best services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ratione adipisci quasi eligendi beatae
+                molestiae nisi, in modi ducimus ex, quod repellendus, blanditiis dolorum recusandae incidunt. Totam,
+                consequatur ullam! Eaque?</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="item">
+            <i class="fa fa-code icons" aria-hidden="true"></i>
+
+            <h2>best services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ratione adipisci quasi eligendi beatae
+                molestiae nisi, in modi ducimus ex, quod repellendus, blanditiis dolorum recusandae incidunt. Totam,
+                consequatur ullam! Eaque?</p>
+        </div>
+        <div class="item">
+            <i class="fa fa-inr icons" aria-hidden="true"></i>
+            <h2>best services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ratione adipisci quasi eligendi beatae
+                molestiae nisi, in modi ducimus ex, quod repellendus, blanditiis dolorum recusandae incidunt. Totam,
+                consequatur ullam! Eaque?</p>
+        </div>
+        <div class="item">
+            <i class="fa fa-link icons" aria-hidden="true"></i>
+            <h2>best services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ratione adipisci quasi eligendi beatae
+                molestiae nisi, in modi ducimus ex, quod repellendus, blanditiis dolorum recusandae incidunt. Totam,
+                consequatur ullam! Eaque?</p>
+        </div>
+    </div>
     <footer>
         Copyright © 2020-2021 Farmy.com
     </footer>
