@@ -144,26 +144,27 @@
         </div>
         <!-- write you'r responce -->
         <h1 style=" text-align: center;opacity: 0.7; margin-top: 40px;">WRITE YOU'R RESPONCE</h1>
+        <form action="contactform.php" method="post">
+            <div class="container">
+                <div class="item">
+                    <input type="text" name="name" id="" placeholder="Name">
 
-        <div class="container">
-            <div class="item">
-                <input type="text" name="" id="" placeholder="Name">
+                </div>
+                <div class="item">
+                    <input type="email" name="mail" id="" placeholder="Email">
+                </div>
+            </div>
+            <div class="container">
 
+                <div class="item"><br>
+                    <label for="text-area" style="font-weight: bold;opacity: 0.8;">MESSAGE:</label>
+                    <br>
+                    <textarea name="message" id="text-area" cols="40" rows="6">  </textarea>
+                    <br>
+                    <button type="submit" id="send-responce" name="submit">SEND RESPONCE</button>
+                </div>
             </div>
-            <div class="item">
-                <input type="email" name="" id="" placeholder="Email">
-            </div>
-        </div>
-        <div class="container">
-
-            <div class="item"><br>
-                <label for="text-area" style="font-weight: bold;opacity: 0.8;">MESSAGE:</label>
-                <br>
-                <textarea name="" id="text-area" cols="40" rows="6">  </textarea>
-                <br>
-                <button type="submit" id="send-responce">SEND RESPONCE</button>
-            </div>
-        </div>
+        </form>
     </main>
     <footer>
         Copyright © 2020-2021 Farmy.com
